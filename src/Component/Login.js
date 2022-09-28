@@ -5,15 +5,25 @@ function Login() {
     <div>
         <form>
             <div>
-                <label>Full name</label>
-                <input></input>
+                <label>User Name</label>
+                <input placeholder='User name'></input>
             </div>
             <div>
-                <label>Email</label>
-                <input></input>
+                <label type="password">Password</label>
+                <input placeholder='Enter Password'></input>
             </div>
-            
+            <button type='submit '>Login</button>
+            <button type='submit'>Cancel</button>
+                  
         </form>
+        <div>
+          <input id='rem' type='checkbox'></input>
+          <label for='rem'>Remember me</label>
+        </div>
+        <div>
+          <button type='submit'>forgot</button>
+        </div>
+        <button>helo</button>
     </div>
   )
 }
