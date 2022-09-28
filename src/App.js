@@ -1,10 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+// import SignUp from './Component/SignUp';
+// import Login from './Component/Login';
+
 function App() {
   return (
     <div className="App">
-  hello this is anil
-  <p>this is editing by anil</p>
+   <h1>hello this is main dont edit here  please create your own branch</h1>
+   
     </div>
   );
 }
