@@ -23,7 +23,7 @@ function Login() {
         <div>
           <button type='submit'>forgot</button>
         </div>
-        <button>helo</button>
+        
     </div>
   )
 }
